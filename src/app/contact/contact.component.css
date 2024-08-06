@@ -1,0 +1,23 @@
+.contact {
+    height: 85vh;
+}
+
+.contact .lines::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #2c3e50;
+    right: 34px;
+    bottom: 45%;
+}
+
+.contact .lines::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #2c3e50;
+    left: 34px;
+    bottom: 45%;
+}

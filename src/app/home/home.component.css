@@ -1,0 +1,39 @@
+.home {
+    background-color: #1abc9c;
+    height: 85vh;
+}
+
+.home img {
+    width: 15%;
+}
+
+.home h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.home .lines {
+    position: relative;
+}
+
+.home .lines::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    right: 34px;
+    bottom: 45%;
+}
+
+.home .lines::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: white;
+    left: 34px;
+    bottom: 45%;
+}
